@@ -1,0 +1,68 @@
+#btn{
+  outline: none;
+  border: none;
+}
+#increase{
+  background-color: blue;
+  border: none;
+  width: 70px;
+  height: 4vh;
+}
+#increase:hover{
+  background-color: green;
+}
+#decrease{
+  background-color: blue;
+  border: none;
+  width: 70px;
+  height: 4vh;
+}
+#decrease:hover{
+  background-color: red;
+}
+#reset{
+  background-color: blue;
+  border: none;
+  width: 70px;
+  height: 4vh;
+}
+#reset:hover{
+  background-color: yellow;
+}
+#show{
+  text-align: center;
+}
+
+@media (max-width:500px) {
+  body{
+    overflow: hidden;
+  }
+  #btn{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+  }
+  #reset{
+    color: white;
+    font-size: 20px;
+    width: 90px;
+    height: 6vh;
+    border-radius: 5px;
+  }
+  #decrease{
+    color: white;
+    font-size: 20px;
+    width: 90px;
+    height: 6vh;
+    border-radius: 5px;
+  }
+  #increase{
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    height: 6vh;
+    border-radius: 5px;
+ 
+  }
+}
